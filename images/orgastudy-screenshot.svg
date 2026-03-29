@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#071526"/>
+      <stop offset="1" stop-color="#013f6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <g fill="#9fd3ff" font-family="Segoe UI, Roboto, sans-serif">
+    <text x="50%" y="45%" font-size="28" text-anchor="middle">Orga-study — Capture d'écran</text>
+    <text x="50%" y="55%" font-size="18" text-anchor="middle">Remplacez ce fichier par votre capture réelle : images/orgastudy-screenshot.svg</text>
+  </g>
+</svg>

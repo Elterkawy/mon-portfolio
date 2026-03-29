@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio étudiant d'Elterkawy Faress — projets, compétences et contact.">
+    <title>Portfolio Étudiant — Elterkawy Faress<style>
+<a>
+
+    <header>
+        <div class="container">
+            <h1>Elterkawy Faress<p>
+            <nav aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#about">À propos<li>
+                    <li><a href="#projects">Projets<li>
+                    <li><a href="#contact">Contact<li>
+                <nav>
+            <div>
+                <button id="theme-toggle" class="btn btn-secondary" aria-pressed="false" aria-label="Basculer thème">🌙<div>
+        <header>
+
+    <main id="main">
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">À propos de moi<strong>, étudiant passionné par l'informatique et la programmation. J'aime créer des projets qui me permettent de progresser et d'apprendre de nouvelles technologies.<p>
+            <p><a class="btn btn-primary" href="CV Faress_Elterkawy.pdf" target="_blank" rel="noopener noreferrer" role="button" aria-label="Ouvrir le CV d'Elterkawy Faress">Télécharger mon CV<p>
+        <h2>
+            <ul>
+                <li><strong>2025 - Présent :<li>
+                <li><strong>2022 - 2025 :<li>
+
+            <h2>
+            <ul>
+                <li>
+                    <strong>Orga-study (déjà réalisé)<p>
+                        <a class="btn btn-secondary" href="https:
+                    <li>
+
+                <li>
+                    <strong>Orga-study (en cours)<li>
+
+                <li>
+                    <strong>Projet futur<li>
+            <section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact<a><section>
+    <p>
+    <script>
+<html>
+
+
+
+
+@import url('https:
+
+:root{
+  --bg-1: #f5f7fb;
+  --bg-2: #e6eefc;
+  --card-bg: rgba(255,255,255,0.85);
+  --glass: rgba(255,255,255,0.6);
+  --primary: #4A90E2;
+  --primary-2: #357ABD;
+  --accent: #4ECDC4;
+  --muted: #6c757d;
+  --dark: #243447;
+  --radius: 14px;
+  --gap: 1rem;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Inter, Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;background:linear-gradient(135deg,var(--bg-1),var(--bg-2));color:var(--dark);line-height:1.6;margin:0;min-height:100vh;display:flex;flex-direction:column}
+
+.container{max-width:1100px;margin:0 auto;padding:0 1rem}
+
+
+header{background:linear-gradient(90deg,var(--primary),var(--primary-2));color:var(--card-bg);padding:1.1rem 0;backdrop-filter:blur(6px);box-shadow:0 8px 30px rgba(50,70,90,0.08);position:sticky;top:0;z-index:100}
+header .container{display:flex;align-items:center;justify-content:space-between;gap:0.75rem}
+header h1{font-family:Poppins, Inter, sans-serif;font-weight:700;margin:0;color:#fff;font-size:1.25rem}
+header .tagline{font-size:0.92rem;color:rgba(255,255,255,0.9);margin-top:0.2rem}
+nav ul{list-style:none;display:flex;gap:0.5rem;margin:0;padding:0}
+nav a{color:rgba(255,255,255,0.95);text-decoration:none;padding:0.4rem 0.7rem;border-radius:10px;font-weight:600;transition:all .18s ease}
+nav a:hover{background:rgba(255,255,255,0.08);transform:translateY(-2px)}
+
+
+.skip-link{position:absolute;left:-999px}
+.skip-link:focus{position:static;margin:0.5rem;padding:0.4rem 0.6rem;background:#0b0b0b;color:#fff;border-radius:6px}
+
+
+main{flex:1;padding:2rem 0}
+section{padding:1.25rem 0}
+h2{font-family:Poppins, Inter, sans-serif;color:var(--primary);text-align:center;margin-bottom:1rem}
+p{color:var(--muted)}
+
+
+#projects ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+#projects li{background:var(--card-bg);border-radius:var(--radius);padding:1rem;box-shadow:0 8px 30px rgba(35,50,75,0.06);transition:transform .25s ease, box-shadow .25s ease}
+#projects li:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(35,50,75,0.09)}
+#projects li strong{display:block;color:var(--dark);margin-bottom:0.45rem}
+
+#projects li .meta{font-size:0.9rem;color:var(--muted);margin-bottom:0.75rem}
+
+.project-actions{display:flex;gap:0.75rem;flex-wrap:wrap}
+
+
+.btn{display:inline-flex;align-items:center;gap:0.5rem;padding:0.55rem 0.9rem;border-radius:12px;font-weight:700;text-decoration:none;border:none;cursor:pointer}
+.btn-primary{background:linear-gradient(90deg,var(--primary),var(--primary-2));color:#fff;box-shadow:0 8px 30px rgba(74,144,226,0.18)}
+.btn-secondary{background:transparent;color:var(--primary);border:2px solid rgba(74,144,226,0.12)}
+.btn:hover{transform:translateY(-3px)}
+.btn:focus{outline:3px solid rgba(74,144,226,0.18);outline-offset:3px}
+
+
+#contact p a{color:var(--primary);font-weight:600}
+footer{background:transparent;padding:1rem 0;color:var(--muted);text-align:center;margin-top:2rem}
+
+
+@media (max-width:768px){
+  header .container{flex-direction:column;align-items:flex-start}
+  nav ul{gap:0.25rem}
+  h2{text-align:left}
+  #projects ul{grid-template-columns:1fr}
+}
+
+
+.muted{color:var(--muted)}
+
+
+.avatar-placeholder{width:140px;height:140px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent));display:flex;align-items:center;justify-content:center;color:#fff;font-size:2rem;box-shadow:0 10px 30px rgba(74,144,226,0.12)}
+
+
+
+
+
+
+(function(){
+	const THEME_KEY = 'site-theme';
+	const toggle = document.getElementById('theme-toggle');
+	const root = document.documentElement;
+
+	function applyTheme(mode){
+		if(mode === 'dark'){
+			root.classList.add('dark');
+			
+			root.style.setProperty('--bg-1','#0f1724');
+			root.style.setProperty('--bg-2','#071226');
+			root.style.setProperty('--card-bg','rgba(18,22,28,0.92)');
+			root.style.setProperty('--primary','#7aa8ff');
+			root.style.setProperty('--muted','#9aa6b2');
+			toggle && toggle.setAttribute('aria-pressed','true');
+			if(toggle) toggle.textContent = '☀️';
+		} else {
+			root.classList.remove('dark');
+			
+			root.style.removeProperty('--bg-1');
+			root.style.removeProperty('--bg-2');
+			root.style.removeProperty('--card-bg');
+			root.style.removeProperty('--primary');
+			root.style.removeProperty('--muted');
+			toggle && toggle.setAttribute('aria-pressed','false');
+			if(toggle) toggle.textContent = '🌙';
+		}
+	}
+
+	
+	(function initTheme(){
+		try{
+			const stored = localStorage.getItem(THEME_KEY);
+			if(stored) return applyTheme(stored);
+			const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			applyTheme(prefersDark ? 'dark' : 'light');
+		}catch(e){
+			applyTheme('light');
+		}
+	})();
+
+	if(toggle){
+		toggle.addEventListener('click', () => {
+			const isDark = root.classList.contains('dark');
+			const next = isDark ? 'light' : 'dark';
+			applyTheme(next);
+			try{ localStorage.setItem(THEME_KEY, next); }catch(e){}
+		});
+
+		
+		toggle.addEventListener('keydown', (e)=>{
+			if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggle.click(); }
+		});
+	}
+
+	
+	(function setupReveal(){
+		const items = document.querySelectorAll('.reveal');
+		if(!items.length) return;
+		const obs = new IntersectionObserver((entries, o)=>{
+			entries.forEach(ent => {
+				if(ent.isIntersecting){
+					ent.target.classList.add('active');
+					o.unobserve(ent.target);
+				}
+			});
+		}, { threshold: 0.12 });
+		items.forEach(it => obs.observe(it));
+	})();
+
+	
+	(function smoothAnchors(){
+		document.querySelectorAll('a[href^="#"]').forEach(a => {
+			a.addEventListener('click', (e) => {
+				const href = a.getAttribute('href');
+				if(!href || href === '#') return;
+				const target = document.querySelector(href);
+				if(!target) return;
+				e.preventDefault();
+				
+				const prevTab = target.getAttribute('tabindex');
+				if(!target.hasAttribute('tabindex')) target.setAttribute('tabindex','-1');
+				target.scrollIntoView({behavior:'smooth', block:'start'});
+				setTimeout(()=>{ target.focus({preventScroll:true}); if(prevTab===null) target.removeAttribute('tabindex'); }, 400);
+			});
+		});
+	})();
+
+})();
+
+
+
